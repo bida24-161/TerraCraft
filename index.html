@@ -1,1 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TerraCraft | Authentic Botswana Artifacts</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="Image/favicon.ico">
+</head>
+<body>
+    <section id="header">
+        <div class="header-logo">
+            <a href="index.html"><img src="./Image/logo.png" alt="TerraCraft Logo"></a>
+        </div>
 
+        <div>
+            <ul id="navbar">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop Artifacts</a></li>
+                <li><a href="about.html">Our Heritage</a></li>
+                <li><a href="feedback.html">Contact Artisans</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li id="lg-bag"><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i><span class="cart-count" style="display:none;"></span></a></li>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+            <i id="bar" class="fa-solid fa-bars"></i>
+            <i id="close" class="fa-solid fa-times"></i>
+        </div>
+    </section>
+
+    <section id="hero" style="background-image: url('Image/hero-botswana.jpg');">
+        <h4>Preserving Cultural Heritage</h4>
+        <h2>Handcrafted Botswana Masterpieces</h2>
+        <h1>Directly From Local Artisans to Your Home</h1>
+        <p>Explore legendary woven baskets, San pottery, and exquisite wood carvings</p>
+        <button onclick="window.location.href='shop.html'">Explore the Collection</button>
+    </section>
+
+    <section id="feature" class="section-p1">
+        <div class="fe-box">
+            <img src="Image/features/f1.png" alt="Global Shipping">
+            <h6>Global Shipping</h6>
+        </div>
+        <div class="fe-box">
+            <img src="Image/features/f2.png" alt="Authentic Crafts">
+            <h6>100% Authentic</h6>
+        </div>
+        <div class="fe-box">
+            <img src="Image/features/f3.png" alt="Fair Trade principles">
+            <h6>Fair Trade Certified</h6>
+        </div>
+        <div class="fe-box">
+            <img src="Image/features/f4.png" alt="Heritage Preservation">
+            <h6>Support Communities</h6>
+        </div>
+        <div class="fe-box">
+            <img src="Image/features/f5.png" alt="Secure Checkout">
+            <h6>Secure Checkout</h6>
+        </div>
+        <div class="fe-box">
+            <img src="Image/features/f6.png" alt="Dedicated Support">
+            <h6>Artisan Support</h6>
+        </div>
+    </section>
+
+    <section id="product1" class="section-p1">
+        <h2>Featured Masterpieces</h2>
+        <p>Exquisite traditional items newly added to the gallery</p>
+        <div class="pro-Container">
+            
+            <!-- Product 1: Okavango Basket -->
+            <div class="pro">
+                <img src="Image/products/basket1.jpg" alt="Handwoven Okavango Delta Basket">
+                <div class="des">
+                    <span>Woven Baskets</span>
+                    <h5>Handwoven Okavango Coiled Basket (Medium)</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$65</h4>
+                </div>
+                <a href="#" class="add-to-cart" data-product-id="tc-01" data-product-name="Handwoven Okavango Coiled Basket" data-product-price="65"><i class="fa-solid fa-cart-shopping buy-icon"></i></a>
+            </div>
+
+            <!-- Product 2: San Ostrich Eggshell Necklace -->
+            <div class="pro">
+                <img src="Image/products/jewelry1.jpg" alt="Traditional San Ostrich Eggshell Bead Necklace">
+                <div class="des">
+                    <span>San Crafts</span>
+                    <h5>Authentic Ostrich Eggshell Bead Necklace</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <h4>$45</h4>
+                </div>
+                <a href="#" class="add-to-cart" data-product-id="tc-02" data-product-name="Ostrich Eggshell Bead Necklace" data-product-price="45"><i class="fa-solid fa-cart-shopping buy-icon"></i></a>
+            </div>
+
+            <!-- Product 3: Shashe Pottery -->
+            <div class="pro">
+                <img src="Image/products/pottery1.jpg" alt="Traditional Clay Pot from Shashe">
+                <div class="des">
+                    <span>Pottery</span>
+                    <h5>Earthenware Clay Pot from Shashe</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$55</h4>
+                </div>
+                <a href="#" class="add-to-cart" data-product-id="tc-03" data-product-name="Earthenware Clay Pot from Shashe" data-product-price="55"><i class="fa-solid fa-cart-shopping buy-icon"></i></a>
+            </div>
+
+            <!-- Product 4: Wood Carving -->
+            <div class="pro">
+                <img src="Image/products/wood1.jpg" alt="Hand-carved Mopane Wood Elephant Statue">
+                <div class="des">
+                    <span>Wood Carvings</span>
+                    <h5>Hand-carved Mopane Wood Silhouette Elephant</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$120</h4>
+                </div>
+                <a href="#" class="add-to-cart" data-product-id="tc-04" data-product-name="Hand-carved Mopane Wood Elephant" data-product-price="120"><i class="fa-solid fa-cart-shopping buy-icon"></i></a>
+            </div>
+
+            <!-- Product 5: Hambukushu Basket -->
+            <div class="pro">
+                <img src="Image/products/basket2.jpg" alt="Hambukushu Patterned Storage Basket">
+                <div class="des">
+                    <span>Woven Baskets</span>
+                    <h5>Hambukushu Lightning Design Storage Basket</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <h4>$85</h4>
+                </div>
+                <a href="#" class="add-to-cart" data-product-id="tc-05" data-product-name="Hambukushu Patterned Basket" data-product-price="85"><i class="fa-solid fa-cart-shopping buy-icon"></i></a>
+            </div>
+
+            <!-- Product 6: Leather Apron -->
+            <div class="pro">
+                <img src="Image/products/leather1.jpg" alt="Traditional Setswana Leather Craft">
+                <div class="des">
+                    <span>Traditional Attire</span>
+                    <h5>Handcrafted Setswana Leather Apron (Metshe)</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$70</h4>
+                </div>
+                <a href="#" class="add-to-cart" data-product-id="tc-06" data-product-name="Setswana Leather Apron" data-product-price="70"><i class="fa-solid fa-cart-shopping buy-icon"></i></a>
+            </div>
+
+            <!-- Product 7: San Leather Pouch -->
+            <div class="pro">
+                <img src="Image/products/leather2.jpg" alt="San Hunter-Gatherer Leather Pouch">
+                <div class="des">
+                    <span>San Crafts</span>
+                    <h5>San Beaded Hunter-Gatherer Leather Pouch</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <h4>$35</h4>
+                </div>
+                <a href="#" class="add-to-cart" data-product-id="tc-07" data-product-name="San Beaded Leather Pouch" data-product-price="35"><i class="fa-solid fa-cart-shopping buy-icon"></i></a>
+            </div>
+
+            <!-- Product 8: Wild Olive Wood Bowl -->
+            <div class="pro">
+                <img src="Image/products/wood2.jpg" alt="Carved Wild Olive Salad Bowl">
+                <div class="des">
+                    <span>Wood Carvings</span>
+                    <h5>Handcrafted Wild Olive Wood Salad Bowl</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$95</h4>
+                </div>
+                <a href="#" class="add-to-cart" data-product-id="tc-08" data-product-name="Wild Olive Wood Bowl" data-product-price="95"><i class="fa-solid fa-cart-shopping buy-icon"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="Image/logo.png" alt="TerraCraft Logo">
+            <h4>Contact Gallery</h4>
+            <p><strong>Gallery Address: </strong>Plot 1084, Khama Crescent, Gaborone, Botswana</p>
+            <p><strong>Phone: </strong>+267 395 7684</p>
+            <p><strong>Hours: </strong>09:00 - 17:00, Mon - Sat</p>
+            <div class="follow">
+                <div>Connect With Our Community</div>
+                <div class="icon">
+                    <i class="fa-brands fa-facebook-square"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-telegram"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>Heritage & Support</h4>
+            <a href="about.html">Our Story & Artisans</a>
+            <a href="#" id="deliveryInfoLink">Global Shipping Info</a>
+            <a href="#" id="privacyPolicyLink">Privacy Policy</a>
+            <a href="#" id="termsConditionsLink">Terms & Conditions</a>
+            <a href="#" id="contactUsLink">Corporate Orders</a>
+        </div>
+        <div class="col">
+            <h4>My Space</h4>
+            <a href="cart.html">View Cart</a>
+            <a href="waitlist.html">My Saved Masterpieces</a>
+            <a href="trackorder.html">Track My Shipment</a>
+            <a href="help.html">Help & Authentication Certificates</a>
+        </div>
+    </footer>
+
+    <div id="modal-container" class="modal-container">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2 id="modal-title"></h2>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Mobile navigation toggle
+            const bar = document.getElementById('bar');
+            const close = document.getElementById('close');
+            const nav = document.getElementById('navbar');
+
+            if (bar) {
+                bar.addEventListener('click', () => {
+                    nav.classList.add('active');
+                });
+            }
+
+            if (close) {
+                close.addEventListener('click', () => {
+                    nav.classList.remove('active');
+                });
+            }
+
+            // Cart functions 
+            function getCartItems() {
+                return JSON.parse(localStorage.getItem('cartItems')) || [];
+            }
+
+            function saveCartItems(items) {
+                localStorage.setItem('cartItems', JSON.stringify(items));
+            }
+
+            function updateCartCount() {
+                const cartCountElement = document.querySelector('.cart-count');
+                const cartItems = getCartItems();
+                const totalItems = cartItems.reduce((sum, item) => sum + item.quantity, 0);
+                if (totalItems > 0) {
+                    cartCountElement.textContent = totalItems;
+                    cartCountElement.style.display = 'inline-block';
+                } else {
+                    cartCountElement.style.display = 'none';
+                }
+            }
+
+            // Modal functions
+            const modalContainer = document.getElementById('modal-container');
+            const modalTitle = document.getElementById('modal-title');
+            const modalBody = document.getElementById('modal-body');
+            const closeButton = document.querySelector('.modal-content .close-button');
+
+            function showModal(title, bodyHtml) {
+                if (modalContainer && modalTitle && modalBody) {
+                    modalTitle.textContent = title;
+                    modalBody.innerHTML = bodyHtml;
+                    modalContainer.style.display = 'flex';
+                }
+            }
+
+            function hideModal() {
+                if (modalContainer) {
+                    modalContainer.style.display = 'none';
+                }
+            }
+
+            if (closeButton) {
+                closeButton.addEventListener('click', hideModal);
+            }
+            if (modalContainer) {
+                modalContainer.addEventListener('click', (e) => {
+                    if (e.target === modalContainer) {
+                        hideModal();
+                    }
+                });
+            }
+
+            // Add to Cart Logic
+            document.querySelectorAll('.add-to-cart').forEach(button => {
+                button.addEventListener('click', (event) => {
+                    event.preventDefault(); 
+                    const productId = button.dataset.productId;
+                    const productName = button.dataset.productName;
+                    const productPrice = parseFloat(button.dataset.productPrice);
+
+                    let cartItems = getCartItems();
+                    const existingItemIndex = cartItems.findIndex(item => item.id === productId);
+
+                    if (existingItemIndex > -1) {
+                        cartItems[existingItemIndex].quantity += 1;
+                    } else {
+                        const productImage = button.closest('.pro').querySelector('img').src;
+                        cartItems.push({
+                            id: productId,
+                            name: productName,
+                            price: productPrice,
+                            quantity: 1,
+                            image: productImage 
+                        });
+                    }
+
+                    saveCartItems(cartItems);
+                    updateCartCount();
+
+                    showModal('Added to Collection!', `<p>"${productName}" has been successfully added to your gallery cart.</p><p>Total items: ${cartItems.reduce((sum, item) => sum + item.quantity, 0)}</p>`);
+                });
+            });
+
+            // Initial cart count update on page load
+            updateCartCount();
+        });
+    </script>
+</body>
+</html>
